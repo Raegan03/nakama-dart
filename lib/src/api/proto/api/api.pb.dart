@@ -5997,6 +5997,11 @@ class LeaderboardRecordList extends $pb.GeneratedMessage {
         const $core.bool.fromEnvironment('protobuf.omit_field_names')
             ? ''
             : 'prevCursor')
+    ..aInt64(
+        5,
+        const $core.bool.fromEnvironment('protobuf.omit_field_names')
+            ? ''
+            : 'rankCount')
     ..hasRequiredFields = false;
 
   LeaderboardRecordList._() : super();
@@ -6005,6 +6010,7 @@ class LeaderboardRecordList extends $pb.GeneratedMessage {
     $core.Iterable<LeaderboardRecord>? ownerRecords,
     $core.String? nextCursor,
     $core.String? prevCursor,
+    $fixnum.Int64? rankCount,
   }) {
     final _result = create();
     if (records != null) {
@@ -6018,6 +6024,9 @@ class LeaderboardRecordList extends $pb.GeneratedMessage {
     }
     if (prevCursor != null) {
       _result.prevCursor = prevCursor;
+    }
+    if (rankCount != null) {
+      _result.rankCount = rankCount;
     }
     return _result;
   }
@@ -6079,6 +6088,18 @@ class LeaderboardRecordList extends $pb.GeneratedMessage {
   $core.bool hasPrevCursor() => $_has(3);
   @$pb.TagNumber(4)
   void clearPrevCursor() => clearField(4);
+
+  @$pb.TagNumber(5)
+  $fixnum.Int64 get rankCount => $_getI64(4);
+  @$pb.TagNumber(5)
+  set rankCount($fixnum.Int64 v) {
+    $_setInt64(4, v);
+  }
+
+  @$pb.TagNumber(5)
+  $core.bool hasRankCount() => $_has(4);
+  @$pb.TagNumber(5)
+  void clearRankCount() => clearField(5);
 }
 
 class LeaveGroupRequest extends $pb.GeneratedMessage {
@@ -10617,6 +10638,11 @@ class TournamentRecordList extends $pb.GeneratedMessage {
         const $core.bool.fromEnvironment('protobuf.omit_field_names')
             ? ''
             : 'prevCursor')
+    ..aInt64(
+        5,
+        const $core.bool.fromEnvironment('protobuf.omit_field_names')
+            ? ''
+            : 'rankCount')
     ..hasRequiredFields = false;
 
   TournamentRecordList._() : super();
@@ -10625,6 +10651,7 @@ class TournamentRecordList extends $pb.GeneratedMessage {
     $core.Iterable<LeaderboardRecord>? ownerRecords,
     $core.String? nextCursor,
     $core.String? prevCursor,
+    $fixnum.Int64? rankCount,
   }) {
     final _result = create();
     if (records != null) {
@@ -10638,6 +10665,9 @@ class TournamentRecordList extends $pb.GeneratedMessage {
     }
     if (prevCursor != null) {
       _result.prevCursor = prevCursor;
+    }
+    if (rankCount != null) {
+      _result.rankCount = rankCount;
     }
     return _result;
   }
@@ -10698,6 +10728,18 @@ class TournamentRecordList extends $pb.GeneratedMessage {
   $core.bool hasPrevCursor() => $_has(3);
   @$pb.TagNumber(4)
   void clearPrevCursor() => clearField(4);
+
+  @$pb.TagNumber(5)
+  $fixnum.Int64 get rankCount => $_getI64(4);
+  @$pb.TagNumber(5)
+  set rankCount($fixnum.Int64 v) {
+    $_setInt64(4, v);
+  }
+
+  @$pb.TagNumber(5)
+  $core.bool hasRankCount() => $_has(4);
+  @$pb.TagNumber(5)
+  void clearRankCount() => clearField(5);
 }
 
 class UpdateAccountRequest extends $pb.GeneratedMessage {

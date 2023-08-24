@@ -1428,12 +1428,13 @@ const LeaderboardRecordList$json = const {
     },
     const {'1': 'next_cursor', '3': 3, '4': 1, '5': 9, '10': 'nextCursor'},
     const {'1': 'prev_cursor', '3': 4, '4': 1, '5': 9, '10': 'prevCursor'},
+    const {'1': 'rank_count', '3': 5, '4': 1, '5': 3, '10': 'rankCount'},
   ],
 };
 
 /// Descriptor for `LeaderboardRecordList`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List leaderboardRecordListDescriptor = $convert.base64Decode(
-    'ChVMZWFkZXJib2FyZFJlY29yZExpc3QSNwoHcmVjb3JkcxgBIAMoCzIdLm5ha2FtYS5hcGkuTGVhZGVyYm9hcmRSZWNvcmRSB3JlY29yZHMSQgoNb3duZXJfcmVjb3JkcxgCIAMoCzIdLm5ha2FtYS5hcGkuTGVhZGVyYm9hcmRSZWNvcmRSDG93bmVyUmVjb3JkcxIfCgtuZXh0X2N1cnNvchgDIAEoCVIKbmV4dEN1cnNvchIfCgtwcmV2X2N1cnNvchgEIAEoCVIKcHJldkN1cnNvcg==');
+    'ChVMZWFkZXJib2FyZFJlY29yZExpc3QSNwoHcmVjb3JkcxgBIAMoCzIdLm5ha2FtYS5hcGkuTGVhZGVyYm9hcmRSZWNvcmRSB3JlY29yZHMSQgoNb3duZXJfcmVjb3JkcxgCIAMoCzIdLm5ha2FtYS5hcGkuTGVhZGVyYm9hcmRSZWNvcmRSDG93bmVyUmVjb3JkcxIfCgtuZXh0X2N1cnNvchgDIAEoCVIKbmV4dEN1cnNvchIfCgtwcmV2X2N1cnNvchgEIAEoCVIKcHJldkN1cnNvchIdCgpyYW5rX2NvdW50GAUgASgDUglyYW5rQ291bnQ=');
 @$core.Deprecated('Use leaveGroupRequestDescriptor instead')
 const LeaveGroupRequest$json = const {
   '1': 'LeaveGroupRequest',
@@ -2351,12 +2352,13 @@ const TournamentRecordList$json = const {
     },
     const {'1': 'next_cursor', '3': 3, '4': 1, '5': 9, '10': 'nextCursor'},
     const {'1': 'prev_cursor', '3': 4, '4': 1, '5': 9, '10': 'prevCursor'},
+    const {'1': 'rank_count', '3': 5, '4': 1, '5': 3, '10': 'rankCount'},
   ],
 };
 
 /// Descriptor for `TournamentRecordList`. Decode as a `google.protobuf.DescriptorProto`.
 final $typed_data.Uint8List tournamentRecordListDescriptor = $convert.base64Decode(
-    'ChRUb3VybmFtZW50UmVjb3JkTGlzdBI3CgdyZWNvcmRzGAEgAygLMh0ubmFrYW1hLmFwaS5MZWFkZXJib2FyZFJlY29yZFIHcmVjb3JkcxJCCg1vd25lcl9yZWNvcmRzGAIgAygLMh0ubmFrYW1hLmFwaS5MZWFkZXJib2FyZFJlY29yZFIMb3duZXJSZWNvcmRzEh8KC25leHRfY3Vyc29yGAMgASgJUgpuZXh0Q3Vyc29yEh8KC3ByZXZfY3Vyc29yGAQgASgJUgpwcmV2Q3Vyc29y');
+    'ChRUb3VybmFtZW50UmVjb3JkTGlzdBI3CgdyZWNvcmRzGAEgAygLMh0ubmFrYW1hLmFwaS5MZWFkZXJib2FyZFJlY29yZFIHcmVjb3JkcxJCCg1vd25lcl9yZWNvcmRzGAIgAygLMh0ubmFrYW1hLmFwaS5MZWFkZXJib2FyZFJlY29yZFIMb3duZXJSZWNvcmRzEh8KC25leHRfY3Vyc29yGAMgASgJUgpuZXh0Q3Vyc29yEh8KC3ByZXZfY3Vyc29yGAQgASgJUgpwcmV2Q3Vyc29yEh0KCnJhbmtfY291bnQYBSABKANSCXJhbmtDb3VudA==');
 @$core.Deprecated('Use updateAccountRequestDescriptor instead')
 const UpdateAccountRequest$json = const {
   '1': 'UpdateAccountRequest',
